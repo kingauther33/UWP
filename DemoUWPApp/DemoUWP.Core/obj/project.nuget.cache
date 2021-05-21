@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "HLmj4TTBPVSLj/f4nl0IDhzBvVBfzSHl7UqNodhSqYAd7/7OKeFGso2o7rSgA/6f0aWtkddCTFlaZYbhV1vSkg==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\UWP\\DemoUWPApp\\DemoUWP.Core\\DemoUWP.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kinga\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kinga\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\kinga\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

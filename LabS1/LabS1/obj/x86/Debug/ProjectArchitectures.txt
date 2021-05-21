@@ -1,0 +1,1 @@
+D:\Documents\UWP\LabS1\LabS1\LabS1.csproj;x86

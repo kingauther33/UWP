@@ -1,0 +1,9 @@
+D:\Documents\UWP\DemoUWPApp\DemoUWP.Core\bin\Debug\netstandard2.0\DemoUWP.Core.deps.json
+D:\Documents\UWP\DemoUWPApp\DemoUWP.Core\bin\Debug\netstandard2.0\DemoUWP.Core.dll
+D:\Documents\UWP\DemoUWPApp\DemoUWP.Core\bin\Debug\netstandard2.0\DemoUWP.Core.pdb
+D:\Documents\UWP\DemoUWPApp\DemoUWP.Core\obj\Debug\netstandard2.0\DemoUWP.Core.csprojAssemblyReference.cache
+D:\Documents\UWP\DemoUWPApp\DemoUWP.Core\obj\Debug\netstandard2.0\DemoUWP.Core.AssemblyInfoInputs.cache
+D:\Documents\UWP\DemoUWPApp\DemoUWP.Core\obj\Debug\netstandard2.0\DemoUWP.Core.AssemblyInfo.cs
+D:\Documents\UWP\DemoUWPApp\DemoUWP.Core\obj\Debug\netstandard2.0\DemoUWP.Core.csproj.CoreCompileInputs.cache
+D:\Documents\UWP\DemoUWPApp\DemoUWP.Core\obj\Debug\netstandard2.0\DemoUWP.Core.dll
+D:\Documents\UWP\DemoUWPApp\DemoUWP.Core\obj\Debug\netstandard2.0\DemoUWP.Core.pdb

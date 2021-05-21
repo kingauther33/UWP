@@ -1,0 +1,1 @@
+D:\Documents\UWP\DemoUWPApp\DemoUWP\DemoUWP.csproj;x86

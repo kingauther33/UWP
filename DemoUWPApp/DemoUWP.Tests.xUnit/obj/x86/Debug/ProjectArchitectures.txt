@@ -1,0 +1,2 @@
+D:\Documents\UWP\DemoUWPApp\DemoUWP.Tests.xUnit\DemoUWP.Tests.xUnit.csproj;x86
+D:\Documents\UWP\DemoUWPApp\DemoUWP\DemoUWP.csproj;x86
