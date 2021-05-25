@@ -1,0 +1,1 @@
+D:\Documents\UWP\TestApp1\TestApp1\TestApp1.csproj;arm

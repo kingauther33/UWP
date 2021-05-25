@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-21T13:09:47.661</Modified>
+      <Modified>2021-05-25T09:57:13.137</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\TestApp1.exe">
       <PackagePath>entrypoint\TestApp1.exe</PackagePath>
-      <Modified>2021-05-21T13:09:46.842</Modified>
+      <Modified>2021-05-25T09:57:10.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,15 +86,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\TestApp1.xr.xml">
       <PackagePath>TestApp1.xr.xml</PackagePath>
-      <Modified>2021-05-21T13:08:43.395</Modified>
+      <Modified>2021-05-24T12:49:54.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-21T13:09:46.486</Modified>
+      <Modified>2021-05-24T12:49:55.023</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-21T13:09:46.487</Modified>
+      <Modified>2021-05-24T12:49:55.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\Pages\ScrollviewDemo.xbf">
+      <PackagePath>Pages\ScrollviewDemo.xbf</PackagePath>
+      <Modified>2021-05-24T12:49:55.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\Pages\SplitViewDemo.xbf">
+      <PackagePath>Pages\SplitViewDemo.xbf</PackagePath>
+      <Modified>2021-05-25T09:57:09.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +110,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-20T12:45:53.078</Modified>
+      <Modified>2021-05-24T12:39:43.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\Core\TestApp1.exe">
       <PackagePath>TestApp1.exe</PackagePath>
-      <Modified>2021-05-21T13:09:47.655</Modified>
+      <Modified>2021-05-25T09:57:13.110</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

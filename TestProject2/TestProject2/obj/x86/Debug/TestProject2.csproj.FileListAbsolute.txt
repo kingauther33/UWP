@@ -1,0 +1,11 @@
+D:\Documents\UWP\TestProject2\TestProject2\obj\x86\Debug\TestProject2.csprojAssemblyReference.cache
+D:\Documents\UWP\TestProject2\TestProject2\obj\x86\Debug\App.g.i.cs
+D:\Documents\UWP\TestProject2\TestProject2\obj\x86\Debug\App.g.cs
+D:\Documents\UWP\TestProject2\TestProject2\obj\x86\Debug\MainPage.g.i.cs
+D:\Documents\UWP\TestProject2\TestProject2\obj\x86\Debug\MainPage.g.cs
+D:\Documents\UWP\TestProject2\TestProject2\obj\x86\Debug\App.xaml
+D:\Documents\UWP\TestProject2\TestProject2\obj\x86\Debug\MainPage.xaml
+D:\Documents\UWP\TestProject2\TestProject2\obj\x86\Debug\Pages\ScrollviewDemo.xaml
+D:\Documents\UWP\TestProject2\TestProject2\obj\x86\Debug\App.xbf
+D:\Documents\UWP\TestProject2\TestProject2\obj\x86\Debug\MainPage.xbf
+D:\Documents\UWP\TestProject2\TestProject2\obj\x86\Debug\Pages\ScrollviewDemo.xbf

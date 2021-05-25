@@ -5592,7 +5592,8 @@
   },
   "packageFolders": {
     "C:\\Users\\kinga\\.nuget\\packages\\": {},
-    "D:\\Phan_mem_C\\MSV\\Shared\\NuGetPackages": {}
+    "D:\\Phan_mem_C\\MSV\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5604,12 +5605,14 @@
       "outputPath": "D:\\Documents\\UWP\\DemoUWPApp\\DemoUWP.Core.Tests.xUnit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Phan_mem_C\\MSV\\Shared\\NuGetPackages"
+        "D:\\Phan_mem_C\\MSV\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\kinga\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

@@ -8,22 +8,22 @@
 //------------------------------------------------------------------------------
 
 
-namespace TestApp1
+namespace LabS2
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
-        private global::TestApp1.TestApp1_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::LabS2.LabS2_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::TestApp1.TestApp1_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::LabS2.LabS2_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::TestApp1.TestApp1_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::LabS2.LabS2_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace TestApp1
     }
 }
 
-namespace TestApp1.TestApp1_XamlTypeInfo
+namespace LabS2.LabS2_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace TestApp1.TestApp1_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::TestApp1.TestApp1_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::LabS2.LabS2_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::TestApp1.TestApp1_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::LabS2.LabS2_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::TestApp1.TestApp1_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::LabS2.LabS2_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }

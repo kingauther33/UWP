@@ -73,6 +73,12 @@
     <AppxPackagedFile Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\Pages\ScrollviewDemo.xbf">
+      <PackagePath>Pages\ScrollviewDemo.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\Pages\SplitViewDemo.xbf">
+      <PackagePath>Pages\SplitViewDemo.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

@@ -43,3 +43,13 @@ D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\qualifiers.txt.intermediate
 D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\ProjectArchitectures.txt
 D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424563200000000.json
+D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\Pages\ScrollviewDemo.xbf
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\ScrollviewDemo.g.i.cs
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\ScrollviewDemo.g.cs
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\ScrollviewDemo.xaml
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\ScrollviewDemo.xbf
+D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\Pages\SplitViewDemo.xbf
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\SplitViewDemo.g.i.cs
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\SplitViewDemo.g.cs
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\SplitViewDemo.xaml
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\SplitViewDemo.xbf
