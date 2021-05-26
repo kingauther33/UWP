@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using LabS2.Models;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -36,6 +37,19 @@ namespace LabS2
             TxtBlockEmail.Text = "Đã gửi đến: " + email;
             TxtBlockSubject.Text = "Chủ đề thư: " + subject;
             TxtBlockContent.Text = "Nội dung thư:\n" + content;
+
+            User u1 = new User(email, content);
+            ListUsers.Items.Add(u1);
+        }
+
+        private void AppbarButton_Click(object sender, RoutedEventArgs e)
+        {
+            SV.IsPaneOpen = !SV.IsPaneOpen;
+        }
+
+        private void ListUsers_Loaded(object sender, RoutedEventArgs e)
+        {
+           
         }
     }
 }

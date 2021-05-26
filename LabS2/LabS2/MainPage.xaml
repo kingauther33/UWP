@@ -4,6 +4,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:LabS2.Models"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Page.Resources>
@@ -187,12 +188,48 @@
             <Button Click="Button_Click" Content="Gửi" RelativePanel.AlignHorizontalCenterWithPanel="True" Width="150" RelativePanel.Below="inputContent" Margin="0,50,250,0"  FontWeight="SemiBold" FontSize="20px" FontFamily="Segoe UI Black" />
         </RelativePanel>
         <RelativePanel Background="Bisque" Grid.Row="0" Grid.Column="1">
-            <TextBox x:Name="TxtBlockEmail" Margin="0,150,0,0" Width="400" Height="50" RelativePanel.AlignHorizontalCenterWithPanel="True" Text="Đã gửi đến: " FontSize="20" TextWrapping="Wrap"/>
+            <TextBox x:Name="TxtBlockEmail" Margin="0,150,0,0" Width="400" Height="50" RelativePanel.AlignHorizontalCenterWithPanel="True" Text="Đã gửi đến: " FontSize="20" TextWrapping="Wrap" />
             <TextBox x:Name="TxtBlockSubject" Margin="0,50,0,0" Width="400" Height="50" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.Below="TxtBlockEmail" Text="Chủ đề thư: " FontSize="20" TextWrapping="Wrap" />
             <TextBox x:Name="TxtBlockContent" Margin="0,50,0,0" Width="400" Height="500" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.Below="TxtBlockSubject" Text="Nội dung thư: " FontSize="20" TextWrapping="Wrap" />
         </RelativePanel>
-        <RelativePanel Background="Bisque" Grid.Row="0" Grid.Column="2">
-            
+        <RelativePanel Background="LightCyan" Grid.Row="0" Grid.Column="2">
+            <SplitView x:Name="SV" DisplayMode="CompactInline" HorizontalAlignment="Left" IsPaneOpen="False" OpenPaneLength="400" CompactPaneLength="60" PaneBackground="Plum">
+                <SplitView.Pane>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <ListView>
+                            <AppBarButton VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Click="AppbarButton_Click" Icon="List">
+                                <FontIcon VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="%#xE700;" />
+                            </AppBarButton>
+                        </ListView>
+                        <ListView Grid.Row="2">
+                            <StackPanel Orientation="Horizontal">
+                                <Button x:Name="button" FontFamily="Segoe MDL2 Assets" Content="&#xE716;" Width="50" Height="50" Background="Transparent" />
+                                <TextBlock HorizontalTextAlignment="Center" VerticalAlignment="Center" Text="Người nhận thư"/>
+                            </StackPanel>
+                        </ListView>
+                    </Grid>
+                </SplitView.Pane>
+                <ScrollViewer Margin="10">
+                    <ListView x:Name="ListUsers" Loaded="ListUsers_Loaded">
+                        <ListView.Header>
+                            <TextBlock Text="Danh sách người nhận thư" />
+                        </ListView.Header>
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="models:User">
+                                <StackPanel>
+                                    <TextBlock Text="{x:Bind Email}" />
+                                    <TextBlock Text="{x:Bind Content}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollViewer>
+            </SplitView>
         </RelativePanel>
     </Grid>
 </Page>

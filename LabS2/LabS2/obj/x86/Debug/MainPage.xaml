@@ -4,6 +4,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:LabS2.Models"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Page.Resources>
@@ -178,21 +179,42 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <RelativePanel Grid.Row="0" Grid.Column="0" Background="Azure">
-            <Border x:ConnectionId='30' x:Name="headerText" Width="500" Height="50" RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="0,50,0,0">
+            <Border x:ConnectionId='37' x:Name="headerText" Width="500" Height="50" RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="0,50,0,0">
                 <TextBlock Text="SEND EMAIL" FontSize="40px" FontWeight="SemiBold" HorizontalTextAlignment="Center" VerticalAlignment="Center" />
             </Border>
-            <TextBox x:ConnectionId='31' Style="{StaticResource TextBoxStyle1}" x:Name="inputEmail"  Width="400" Height="50" RelativePanel.Below="headerText" RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="0,50,0,0" PlaceholderText="Đến" FontSize="20px" TextWrapping="Wrap" />
-            <TextBox x:ConnectionId='32' Style="{StaticResource TextBoxStyle1}" x:Name="inputSubject" Width="400" Height="50" RelativePanel.Below="inputEmail" RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="0,50,0,0" PlaceholderText="Chủ Đề" FontSize="20px" TextWrapping="Wrap" />
-            <TextBox x:ConnectionId='33' x:Name="inputContent" Width="400" Height="500" RelativePanel.Below="inputSubject" RelativePanel.AlignHorizontalCenterWithPanel="True" PlaceholderText="Nội dung" Margin="0,50,0,0" FontSize="20px" TextWrapping="Wrap" />
-            <Button x:ConnectionId='34'                      Content="Gửi" RelativePanel.AlignHorizontalCenterWithPanel="True" Width="150" RelativePanel.Below="inputContent" Margin="0,50,250,0"  FontWeight="SemiBold" FontSize="20px" FontFamily="Segoe UI Black" />
+            <TextBox x:ConnectionId='38' Style="{StaticResource TextBoxStyle1}" x:Name="inputEmail"  Width="400" Height="50" RelativePanel.Below="headerText" RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="0,50,0,0" PlaceholderText="Đến" FontSize="20px" TextWrapping="Wrap" />
+            <TextBox x:ConnectionId='39' Style="{StaticResource TextBoxStyle1}" x:Name="inputSubject" Width="400" Height="50" RelativePanel.Below="inputEmail" RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="0,50,0,0" PlaceholderText="Chủ Đề" FontSize="20px" TextWrapping="Wrap" />
+            <TextBox x:ConnectionId='40' x:Name="inputContent" Width="400" Height="500" RelativePanel.Below="inputSubject" RelativePanel.AlignHorizontalCenterWithPanel="True" PlaceholderText="Nội dung" Margin="0,50,0,0" FontSize="20px" TextWrapping="Wrap" />
+            <Button x:ConnectionId='41'                      Content="Gửi" RelativePanel.AlignHorizontalCenterWithPanel="True" Width="150" RelativePanel.Below="inputContent" Margin="0,50,250,0"  FontWeight="SemiBold" FontSize="20px" FontFamily="Segoe UI Black" />
         </RelativePanel>
         <RelativePanel Background="Bisque" Grid.Row="0" Grid.Column="1">
-            <TextBox x:ConnectionId='27' x:Name="TxtBlockEmail" Margin="0,150,0,0" Width="400" Height="50" RelativePanel.AlignHorizontalCenterWithPanel="True" Text="Đã gửi đến: " FontSize="20" TextWrapping="Wrap"/>
-            <TextBox x:ConnectionId='28' x:Name="TxtBlockSubject" Margin="0,50,0,0" Width="400" Height="50" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.Below="TxtBlockEmail" Text="Chủ đề thư: " FontSize="20" TextWrapping="Wrap" />
-            <TextBox x:ConnectionId='29' x:Name="TxtBlockContent" Margin="0,50,0,0" Width="400" Height="500" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.Below="TxtBlockSubject" Text="Nội dung thư: " FontSize="20" TextWrapping="Wrap" />
+            <TextBox x:ConnectionId='34' x:Name="TxtBlockEmail" Margin="0,150,0,0" Width="400" Height="50" RelativePanel.AlignHorizontalCenterWithPanel="True" Text="Đã gửi đến: " FontSize="20" TextWrapping="Wrap"/>
+            <TextBox x:ConnectionId='35' x:Name="TxtBlockSubject" Margin="0,50,0,0" Width="400" Height="50" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.Below="TxtBlockEmail" Text="Chủ đề thư: " FontSize="20" TextWrapping="Wrap" />
+            <TextBox x:ConnectionId='36' x:Name="TxtBlockContent" Margin="0,50,0,0" Width="400" Height="500" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.Below="TxtBlockSubject" Text="Nội dung thư: " FontSize="20" TextWrapping="Wrap" />
         </RelativePanel>
-        <RelativePanel Background="Bisque" Grid.Row="0" Grid.Column="2">
-            
+        <RelativePanel Background="LightCyan" Grid.Row="0" Grid.Column="2">
+            <SplitView x:ConnectionId='27' x:Name="SV" DisplayMode="CompactInline" HorizontalAlignment="Left" IsPaneOpen="False" OpenPaneLength="250">
+                <SplitView.Pane>
+                    <AppBarButton x:ConnectionId='28' VerticalContentAlignment="Center" HorizontalContentAlignment="Center"                            Icon="List" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <FontIcon VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="%#xE700;" />
+                    </AppBarButton>
+                </SplitView.Pane>
+                <ScrollViewer Margin="10">
+                    <ListView x:ConnectionId='29' x:Name="ListUsers"                          >
+                        <ListView.Header>
+                            <TextBlock Text="Danh sách người nhận thư"/>
+                        </ListView.Header>
+                        <ListView.ItemTemplate>
+                            <DataTemplate                         >
+                                <StackPanel x:ConnectionId='31'>
+                                    <TextBlock x:ConnectionId='32'                      />
+                                    <TextBlock x:ConnectionId='33'                        />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollViewer>
+            </SplitView>
         </RelativePanel>
     </Grid>
 </Page>
