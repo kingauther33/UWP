@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Documents\UWP\LabS3\LabS3\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-28T02:52:59.291</Modified>
+      <Modified>2021-05-28T11:15:23.148</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Documents\UWP\LabS3\LabS3\bin\x86\Debug\LabS3.exe">
       <PackagePath>entrypoint\LabS3.exe</PackagePath>
-      <Modified>2021-05-28T02:52:57.470</Modified>
+      <Modified>2021-05-28T11:15:16.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,35 +90,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\LabS3\LabS3\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-28T02:52:56.977</Modified>
+      <Modified>2021-05-28T11:15:15.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\LabS3\LabS3\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-28T02:52:56.979</Modified>
+      <Modified>2021-05-28T11:15:15.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\LabS3\LabS3\bin\x86\Debug\Pages\Menus\AddContact.xbf">
       <PackagePath>Pages\Menus\AddContact.xbf</PackagePath>
-      <Modified>2021-05-28T02:52:56.980</Modified>
+      <Modified>2021-05-28T11:15:15.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\LabS3\LabS3\bin\x86\Debug\Pages\Menus\Contact.xbf">
       <PackagePath>Pages\Menus\Contact.xbf</PackagePath>
-      <Modified>2021-05-28T02:52:56.980</Modified>
+      <Modified>2021-05-28T11:15:15.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\LabS3\LabS3\bin\x86\Debug\Pages\Menus\Customer.xbf">
       <PackagePath>Pages\Menus\Customer.xbf</PackagePath>
-      <Modified>2021-05-28T02:52:56.980</Modified>
+      <Modified>2021-05-28T11:15:15.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\LabS3\LabS3\bin\x86\Debug\Pages\Menus\Home.xbf">
       <PackagePath>Pages\Menus\Home.xbf</PackagePath>
-      <Modified>2021-05-28T02:52:56.980</Modified>
+      <Modified>2021-05-28T11:15:15.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\LabS3\LabS3\bin\x86\Debug\Pages\Layout.xbf">
       <PackagePath>Pages\Layout.xbf</PackagePath>
-      <Modified>2021-05-28T02:52:56.980</Modified>
+      <Modified>2021-05-28T11:15:15.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\LabS3\LabS3\bin\x86\Debug\Pages\Menus\Mail.xbf">
       <PackagePath>Pages\Menus\Mail.xbf</PackagePath>
-      <Modified>2021-05-28T02:52:56.981</Modified>
+      <Modified>2021-05-28T11:15:15.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -130,7 +130,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\UWP\LabS3\LabS3\bin\x86\Debug\Core\LabS3.exe">
       <PackagePath>LabS3.exe</PackagePath>
-      <Modified>2021-05-28T02:52:59.277</Modified>
+      <Modified>2021-05-28T11:15:23.125</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -26,13 +26,13 @@
                     <TextBlock Text="SEND EMAIL" FontSize="40px" FontWeight="SemiBold" HorizontalTextAlignment="Center" VerticalAlignment="Center" />
                 </Border>-->
                 <TextBlock x:ConnectionId='3' x:Name="txtInputName" Text="Enter your name: " FontSize="26px" Margin="50,0,0,0" FontWeight="SemiBold" HorizontalTextAlignment="Center" VerticalAlignment="Center"/>
-                <TextBox x:ConnectionId='4' x:Name="inputName"  Width="400" Height="50" RelativePanel.Below="txtInputName" RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="0,10,0,0" PlaceholderText="Name" FontSize="20px" TextWrapping="Wrap" />
+                <TextBox x:ConnectionId='4' x:Name="inputName"  Width="400" Height="50" RelativePanel.Below="txtInputName" RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="-60,10,0,0" PlaceholderText="Name" FontSize="20px" TextWrapping="Wrap" />
 
                 <TextBlock x:ConnectionId='5' x:Name="txtInputAge" RelativePanel.Below="inputName" Text="Enter your age: " FontSize="26px" Margin="50,20,0,0" FontWeight="SemiBold" HorizontalTextAlignment="Center" VerticalAlignment="Center"/>
-                <TextBox x:ConnectionId='6' x:Name="inputAge" Width="400" Height="50" RelativePanel.Below="txtInputAge" RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="0,10,0,0" PlaceholderText="Age" FontSize="20px" TextWrapping="Wrap" />
+                <TextBox x:ConnectionId='6' x:Name="inputAge" Width="400" Height="50" RelativePanel.Below="txtInputAge" RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="-60,10,0,0" PlaceholderText="Age" FontSize="20px" TextWrapping="Wrap" />
 
                 <TextBlock x:ConnectionId='7' x:Name="txtInputAddress" RelativePanel.Below="inputAge" Text="Enter your address: " FontSize="26px" Margin="50,20,0,0" FontWeight="SemiBold" HorizontalTextAlignment="Center" VerticalAlignment="Center"/>
-                <TextBox x:ConnectionId='8' x:Name="inputAddress" Width="400" Height="50" RelativePanel.Below="txtInputAddress" RelativePanel.AlignHorizontalCenterWithPanel="True" PlaceholderText="Address" Margin="0,10,0,0" FontSize="20px" TextWrapping="Wrap" />
+                <TextBox x:ConnectionId='8' x:Name="inputAddress" Width="400" Height="50" RelativePanel.Below="txtInputAddress" RelativePanel.AlignHorizontalCenterWithPanel="True" PlaceholderText="Address" Margin="-60,10,0,0" FontSize="20px" TextWrapping="Wrap" />
                 <Button x:ConnectionId='9'                      Content="Gửi" Width="150" RelativePanel.Below="inputAddress" Margin="50,50,0,0"  FontWeight="SemiBold" FontSize="20px" FontFamily="Segoe UI Black" />
                 <TextBlock x:ConnectionId='10' x:Name="successText" FontSize="30" Foreground="ForestGreen" RelativePanel.Below="inputAddress" Margin="50,125,0,0" Text="" FontFamily="Global Monospace" TextWrapping="Wrap"/>
             </RelativePanel>
