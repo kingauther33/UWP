@@ -44,6 +44,7 @@
       <RootProperty Name="Content" />
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
@@ -52,21 +53,15 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Text" />
       <RootProperty Name="TextWrapping" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="MaxLines" />
     </RootType>
     <RootType FullName="TestApp1.MainPage" />
     <RootType FullName="TestApp1.Pages.Category" />
-    <RootType FullName="TestApp1.Pages.Home" />
-    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
-      <RootProperty Name="OpenPaneLength" />
-      <RootProperty Name="DisplayMode" />
-      <RootProperty Name="IsPaneOpen" />
-      <RootProperty Name="Pane" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="HorizontalAlignment" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="Margin" />
       <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="Margin" />
       <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
@@ -76,7 +71,29 @@
       <RootProperty Name="Content" />
       <RootEvent Name="Tapped" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
+    <RootType FullName="TestApp1.Pages.DemoFetchApi" />
+    <RootType FullName="TestApp1.Pages.DemoFileHandle" />
+    <RootType FullName="TestApp1.Pages.Home" />
+    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
+      <RootProperty Name="OpenPaneLength" />
+      <RootProperty Name="DisplayMode" />
+      <RootProperty Name="IsPaneOpen" />
+      <RootProperty Name="Pane" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
@@ -109,9 +126,6 @@
       <RootProperty Name="Header" />
       <RootProperty Name="ItemTemplate" />
       <RootEvent Name="Loaded" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="TestApp1.Pages.SplitViewDemo" />
   </Roots.RootTypes>

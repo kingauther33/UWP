@@ -68,3 +68,14 @@ D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\Category.xaml
 D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\Home.xaml
 D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\Category.xbf
 D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\Home.xbf
+D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\Pages\DemoFetchApi.xbf
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\DemoFetchApi.g.i.cs
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\DemoFetchApi.g.cs
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\DemoFetchApi.xaml
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\DemoFetchApi.xbf
+D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Documents\UWP\TestApp1\TestApp1\bin\x86\Debug\Pages\DemoFileHandle.xbf
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\DemoFileHandle.g.i.cs
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\DemoFileHandle.g.cs
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\DemoFileHandle.xaml
+D:\Documents\UWP\TestApp1\TestApp1\obj\x86\Debug\Pages\DemoFileHandle.xbf

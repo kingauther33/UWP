@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="TestApp1.Pages.DemoFetchApi"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestApp1.Pages"
+    xmlns:models="using:TestApp1.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <ListView x:ConnectionId='2' x:Name="DemoMenuItems"                     >
+            <ListView.ItemTemplate>
+                <DataTemplate                         >
+                    <ListViewItem x:ConnectionId='4'>
+                        <StackPanel Orientation="Horizontal">
+                            <Image x:ConnectionId='5'                        Width="50" Height="50" Margin="10,50,0,0"/>
+                            <TextBlock x:ConnectionId='6' VerticalAlignment="Center" Style="{StaticResource SubheaderTextBlockStyle}"                     />
+                        </StackPanel>
+                    </ListViewItem>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>
+
