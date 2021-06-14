@@ -37,7 +37,9 @@ namespace Practical.Pages
         public static async Task<string> ReadFile(string fileName)
         {
             // Tao file employee.json trong package cua may tinh
-            var storage = Windows.Storage.ApplicationData.Current.LocalFolder;
+            //var storage = Windows.Storage.ApplicationData.Current.LocalFolder;
+
+            var storage = Windows.ApplicationModel.Package.Current.InstalledLocation;
             var demoFile = await storage.CreateFileAsync(fileName, Windows.Storage.CreationCollisionOption.OpenIfExists);
             return await FileIO.ReadTextAsync(demoFile);
         }
