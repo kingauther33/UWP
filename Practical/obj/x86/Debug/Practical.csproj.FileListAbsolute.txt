@@ -54,3 +54,10 @@ D:\Documents\UWP\Practical\obj\x86\Debug\Pages\Question2.g.i.cs
 D:\Documents\UWP\Practical\obj\x86\Debug\Pages\Question2.g.cs
 D:\Documents\UWP\Practical\obj\x86\Debug\Pages\Question2.xaml
 D:\Documents\UWP\Practical\obj\x86\Debug\Pages\Question2.xbf
+D:\Documents\UWP\Practical\bin\x86\Debug\SQLitePCL.Ext.dll
+D:\Documents\UWP\Practical\bin\x86\Debug\SQLitePCL.Ext.pri
+D:\Documents\UWP\Practical\bin\x86\Debug\SQLitePCL.dll
+D:\Documents\UWP\Practical\obj\x86\Debug\SQLitePCL\en\SQLitePCL.Resources.resw
+D:\Documents\UWP\Practical\obj\x86\Debug\resources.en.resfiles
+D:\Documents\UWP\Practical\obj\x86\Debug\resources.en.resfiles.intermediate
+D:\Documents\UWP\Practical\obj\x86\Debug\SQLitePCL.Ext.pri.xml

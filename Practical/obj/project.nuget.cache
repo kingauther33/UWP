@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0PBYse5w+6PHNk3QOiy5uU9YTVBrZKLNceWbJUFbcxsVmp2XEUoSDPJBnnrXu4UwDGqYPa3+6yJ0+Z7iLBYpGw==",
+  "dgSpecHash": "nHSBTrdmPREbzeNnwrpWm9DN10mryOOA+Hh8ip0Jqqs2foQv6Tsory9vmiwH5L2tVRQbxLH/0AB8uwkV5MFgCw==",
   "success": true,
   "projectFilePath": "D:\\Documents\\UWP\\Practical\\Practical.csproj",
   "expectedPackageFiles": [
@@ -27,7 +27,8 @@
     "C:\\Users\\kinga\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.compiler\\2.2.10-rel-29722-00\\runtime.win10-x86.microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\kinga\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.2.8-rel-29722-00\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.2.8-rel-29722-00.nupkg.sha512",
     "C:\\Users\\kinga\\.nuget\\packages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.12\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",
-    "C:\\Users\\kinga\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.12\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512"
+    "C:\\Users\\kinga\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.12\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
+    "C:\\Users\\kinga\\.nuget\\packages\\sqlitepcl\\3.8.7.2\\sqlitepcl.3.8.7.2.nupkg.sha512"
   ],
   "logs": []
 }
